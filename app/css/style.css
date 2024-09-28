@@ -1,0 +1,147 @@
+/* -------------------------------------------------------- */
+body {
+	padding: 1% 0%;
+	background-color: rgba(91, 134, 94, 0.678);
+	color: rgb(52, 58, 64);
+	overflow: hidden;
+}
+#outer_container {
+	background-color: #ffffff;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+	max-width: 1280px;
+	position: relative;
+}
+header{
+	background-color:rgba(250, 235, 215, 0.548);
+}
+
+#imgs:hover{
+    -webkit-transform:scale(3); /* Safari and Chrome */
+    -moz-transform:scale(3); /* Firefox */
+    -ms-transform:scale(3); /* IE 9 */
+    -o-transform:scale(3); /* Opera */
+     transform:scale(3);
+	 -webkit-transition: all 1s ease; /* Safari and Chrome */
+	 transform-origin: top; /* Set transform origin to the top */
+	 cursor: zoom-in; 
+}
+.carousel-item:hover {
+	overflow: auto;
+}
+.carousel-control-prev, .carousel-control-next {
+	opacity: 0.75;
+	filter: brightness(100%);
+}
+#cap{
+	position:fixed;
+  bottom: 10rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  
+}
+
+/* -------------- Header ------------------------------------------ */
+/*
+#header {
+	border-bottom: 1px solid #ddd;
+}
+*/
+#controls a {
+  display: inline-block;
+}
+#controls a i {
+	color: rgb(52, 58, 64);
+}
+
+/* -------------- Main ------------------------------------------ */
+#main {
+  max-width: 1280px;
+}
+#canvas_container {
+  height: auto;
+}
+#inner_container {
+	height: 90%;
+	overflow-y: hidden;
+	background-color: #ffffff;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+#container_wrapper {
+	padding: 0px;
+}
+/* -------------- Main - Carousel ------------------------------------------ */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	border: 1px solid #ffffff;
+	border-radius: 8px;
+	background-color: #999999aa;
+	box-shadow: 1px 1px 1px 1px #555;
+}
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+	transform: scale(1.1, 1.1);
+}
+.carousel-control-prev-icon:active,
+.carousel-control-next-icon:active {
+  transform: translateY(2px);
+}
+.carousel-item img {
+	max-width: 100%;
+	width: auto;
+	height: auto;
+}
+.carousel-caption {
+	background-color: #44444488;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+/* -------------------------------------------------------- */
+ol li {
+	margin: 10px;
+}
+
+.btn-move-down:active {
+  transform: translateY(4px);
+	transition: 0.3s;
+}
+.to-the-left {
+	float: left;
+}
+.to-the-right {
+	float: right;
+}
+.bg-slideshow {
+	background: linear-gradient(to right, rgb(52, 58, 64), rgb(52, 58, 64, 0.8), rgb(52, 58, 64));
+	transition: 0.3s;
+}
+
+/* -------------- Scroll Bars ------------------------------------------ */
+::-webkit-scrollbar {
+  width: 10px;
+	height: 10px;
+}
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #F5F5F5;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: rgb(109, 117, 125, 0.7);
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(109, 117, 125, 0.8);
+}
+::-webkit-scrollbar-thumb:active {
+  background-color: rgb(109, 117, 125);
+}
+
+/*
+* {
+	font-size: calc(0.7vmin + 0.04rem);
+}
+*/
